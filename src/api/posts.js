@@ -2,48 +2,23 @@ import { posts } from './index';
 
 // posts
 function createNewPost(data) {
-	try {
-		return posts.post('/', data);
-	} catch (error) {
-		console.log(error);
-		return error;
-	}
+	return posts.post('/', data);
 }
 
 function fetchPosts() {
-	try {
-		return posts.get('/');
-	} catch (error) {
-		console.log(error);
-		return error;
-	}
+	return posts.get('/');
 }
 
 function fetchPostById(id) {
-	try {
-		return posts.get(id);
-	} catch (error) {
-		console.log(error);
-		return error;
-	}
+	return posts.get(id);
 }
 
 function editPostById(id, data) {
-	try {
-		return posts.put(id, data);
-	} catch (error) {
-		console.log(error);
-		return error;
-	}
+	return posts.put(id, data);
 }
 
 function deletePostById(id) {
-	try {
-		return posts.delete(id);
-	} catch (error) {
-		console.log(error);
-		return error;
-	}
+	return posts.delete(id);
 }
 
 export {
