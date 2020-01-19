@@ -1,3 +1,4 @@
+// 필터 관련 함수가 존재하는 파일
 export function formatDate(value) {
   const date = new Date(value);
   const year = date.getFullYear();
