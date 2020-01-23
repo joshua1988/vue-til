@@ -35,7 +35,7 @@
 
 <script>
 import PageHeader from '@/components/common/PageHeader.vue';
-import { fetchPostById, editPostById } from '@/api/index.js';
+import { fetchPostById, editPostById } from '@/api/posts.js';
 import bus from '@/utils/bus.js';
 
 export default {

@@ -1,7 +1,7 @@
 <template>
 	<footer>
 		<a
-			href="https://github.com/joshua1988/vue-camp/tree/master/6_advanced/vue-til"
+			href="https://github.com/joshua1988/vue-til/tree/complete"
 			target="_blank"
 			>View GitHub source</a
 		>
