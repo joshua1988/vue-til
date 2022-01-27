@@ -48,6 +48,7 @@ export default {
           title: this.title,
           contents: this.contents,
         });
+        this.$router.push('/main');
         console.log(response);
       } catch (error) {
         this.logMessgae = error.response.data.message;

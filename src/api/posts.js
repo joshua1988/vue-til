@@ -10,4 +10,9 @@ function createPost(postData) {
   return posts.post('/', postData);
 }
 
-export { fetchPosts, createPost };
+// 학습 노트 데이터 삭제하는 API
+function deletePost(postId) {
+  return posts.delete(postId);
+}
+
+export { fetchPosts, createPost, deletePost };
